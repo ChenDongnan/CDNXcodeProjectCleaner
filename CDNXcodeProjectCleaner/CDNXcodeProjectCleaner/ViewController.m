@@ -8,6 +8,14 @@
 
 #import "ViewController.h"
 
+@interface ViewController()
+
+@property (weak) IBOutlet NSTextField *pathTextField;
+
+
+@end
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {

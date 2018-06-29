@@ -14,6 +14,7 @@
 		12B8190920D8B5C7003EB173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B8190820D8B5C7003EB173 /* main.m */; };
 		12B8191420D8B5C7003EB173 /* CDNXcodeProjectCleanerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B8191320D8B5C7003EB173 /* CDNXcodeProjectCleanerTests.m */; };
 		12B8191F20D8B5C7003EB173 /* CDNXcodeProjectCleanerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B8191E20D8B5C7003EB173 /* CDNXcodeProjectCleanerUITests.m */; };
+		12B8192E20D902C7003EB173 /* CDNProjectCleanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B8192D20D902C7003EB173 /* CDNProjectCleanManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		12B8191A20D8B5C7003EB173 /* CDNXcodeProjectCleanerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDNXcodeProjectCleanerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B8191E20D8B5C7003EB173 /* CDNXcodeProjectCleanerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDNXcodeProjectCleanerUITests.m; sourceTree = "<group>"; };
 		12B8192020D8B5C7003EB173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B8192C20D902C7003EB173 /* CDNProjectCleanManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDNProjectCleanManager.h; sourceTree = "<group>"; };
+		12B8192D20D902C7003EB173 /* CDNProjectCleanManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDNProjectCleanManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				12B818FD20D8B5C6003EB173 /* AppDelegate.m */,
 				12B818FF20D8B5C6003EB173 /* ViewController.h */,
 				12B8190020D8B5C6003EB173 /* ViewController.m */,
+				12B8192C20D902C7003EB173 /* CDNProjectCleanManager.h */,
+				12B8192D20D902C7003EB173 /* CDNProjectCleanManager.m */,
 				12B8190220D8B5C7003EB173 /* Assets.xcassets */,
 				12B8190420D8B5C7003EB173 /* Main.storyboard */,
 				12B8190720D8B5C7003EB173 /* Info.plist */,
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B8190120D8B5C6003EB173 /* ViewController.m in Sources */,
+				12B8192E20D902C7003EB173 /* CDNProjectCleanManager.m in Sources */,
 				12B8190920D8B5C7003EB173 /* main.m in Sources */,
 				12B818FE20D8B5C6003EB173 /* AppDelegate.m in Sources */,
 			);

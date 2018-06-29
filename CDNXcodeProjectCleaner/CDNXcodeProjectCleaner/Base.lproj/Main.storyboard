@@ -830,6 +830,9 @@
                             <constraint firstItem="beq-O6-dv2" firstAttribute="top" secondItem="TPi-vi-gJS" secondAttribute="bottom" constant="20" id="z3b-Yc-iAn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pathTextField" destination="rW9-no-29Q" id="lCq-1o-fny"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
